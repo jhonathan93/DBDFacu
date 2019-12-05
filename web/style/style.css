@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC:400,700|Roboto&display=swap");
+
+*{ margin: 0; padding: 0; }
+
+body{
+    font-size: 12pt;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ 
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+}
+
+#content {
+    width: 994px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: bold;
+    color: #e8edec;
+    display: inline-block;
+    padding: 30px 40px 0px 0;
+}
+
+.account {
+    padding: 0px 0px 0 40px;
+    cursor: pointer;
+}
+
+i.far.fa-user-circle {
+    font-size: 25pt;
+}
+
+i.far.fa-user-circle:hover {
+    color: rgb(57, 106, 212);
+}
+
+i.far.fa-user-circle span {
+    font-size: 16pt;
+}
+
+ul li:hover{
+    color:#660000;
+}
+
+.fa-facebook{
+    font-size: 25pt;
+    color: #1877f2;
+}
+
+.fa-instagram {
+    font-size: 25pt;
+    color: #cb0087;
+}
+
+.fa-twitch {
+    font-size: 25pt;
+    color: #6441a5;
+}
+
+.fa-twitter {
+    font-size: 25pt;
+    color: #55acef;
+}
+
+nav ul li:hover, nav ul li i:hover {
+    color: #f00000;
+}
+
+
+#content nav {
+    float: right;
+    font-size: 13pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner{
+    padding-top: 83px;
+}
+
+.character {
+    width: 100%;
+    background-color: #cccccc;
+}
+
+.title {
+    width: 250px;
+    font-size: 28pt;
+    padding: 0 0 8px 0;
+    border-bottom: 2px solid red;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+#character {
+    width: 100%;
+    padding: 50px 0;
+    background: #eeeeee;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    background: #ffffff;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box figure {
+    width: 100%;
+    height: 200px;
+}
+
+.box .box-title {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.box p {
+    color: #ffffff;
+}
+
+.sbox1  {
+    background-image: url('https://external-preview.redd.it/_CpfBFeyx5dhipVZ_FgcjXV14S1IbLQ9Hv0aJN-9Urw.png?auto=webp&s=9b7f1bbfd0ae2b294d814926475dd51559447913');
+    background-size: cover;
+    background-position: top;
+}
+
+.sbox2 {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/34f536c7-b23e-4493-9735-a35927a10d3d/dd0ql3m-d83d1045-d6ac-4bb0-bfcb-129f8a0137fc.jpg/v1/fill/w_1024,h_1793,q_75,strp/laurie_strode_by_atanvarneart_dd0ql3m-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc5MyIsInBhdGgiOiJcL2ZcLzM0ZjUzNmM3LWIyM2UtNDQ5My05NzM1LWEzNTkyN2ExMGQzZFwvZGQwcWwzbS1kODNkMTA0NS1kNmFjLTRiYjAtYmZjYi0xMjlmOGEwMTM3ZmMuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.eDlwL_VumHuMjPOSD5qZ02NAolL9CYBRwwLZrDux8eQ');
+    background-size: cover;
+    background-position: top;
+}
+
+.sbox3  {
+    background-image: url('https://static.zerochan.net/Nea.Karlsson.full.2380837.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.abox1  {
+    background-image: url('https://i.pinimg.com/originals/3a/9e/91/3a9e91c13ba96c0be8732b780361866c.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.abox2 {
+    background-image: url('https://pbs.twimg.com/media/DRHDOlCUIAAAp1u.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.abox3  {
+    background-image: url('https://i.redd.it/ecpsdj62chb31.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#contentTitle {
+    background-color: #eeeeee;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#contact{
+    background-color: #eeeeee;
+    padding: 50px 0;
+}
+
+.footerJ {
+    background-color: #eeeeee;
+    width: 50%;
+    padding: 30px 0;
+    float: right;
+    text-align: center;
+}
+
+.footerP {
+    background-color: #eeeeee;
+    width: 50%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#survivor, #killer{
+    padding: 4%;
+}
+
+#killer{
+    padding-top: 0%;
+}
+
+.titlePerk{
+    text-align: center;
+    color: black;
+    margin-bottom: 10%;
+}
+
+.boxPerk {
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 240px;
+    padding: 1%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.imgPerk{
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+footer{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding-top: 15px;
+    text-align: center;
+    height: 40px;
+}
+
+.perfil .Dashboard{
+    color: #ffffff;
+    margin-bottom: 4%;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.form {
+    background-color: black;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information label {
+    color: #ffffff;
+}
+
+.information input {
+    background: transparent;
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 5%;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    border: none;
+    margin: 2%;
+    width: 10%;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button button:hover{
+    background-color:rgba(245, 81, 239, 0.5);
+    transition: .7s;
+}

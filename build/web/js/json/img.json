@@ -1,0 +1,99 @@
+{
+    "101": [
+        {
+            "char": "img/nurse.jpg",
+            "power": "img/nursepower.png"
+        }
+    ],
+    "102": [
+        {
+            "char": "img/trapper.jpg",
+            "power": "img/trapperpower.png"
+        }
+    ],
+    "103": [
+        {
+            "char": "img/ghostface.jpg",
+            "power": "img/ghostfacepower.png"
+        }
+    ],
+    "201": "img/NeaKarlsson.jpg",
+    "202": "img/MegThomas.png",
+    "203": "img/LaurieStrode.jpg",
+
+    "1310":[{
+        "url": "img/perks/Stridor.gif",
+        "nome": "Stridor"
+    }],
+    "1311":[{
+        "url": "img/perks/Thanatophobia.gif",
+        "nome": "Thanatophobia"
+    }],
+    "1312":[{
+        "url":"img/perks/ANursesCalling.gif",
+        "nome": "A Nurses Calling"
+    }],
+    "1313": [{
+        "url":"img/perks/Agitation.gif",
+        "nome":"Agitation"
+    }],
+    "1314": [{
+        "url": "img/perks/BrutalStrength.gif",
+        "nome": "Brutal Strength"
+    }],
+    "1315": [{
+        "url":"img/perks/UnnervingPresence.gif",
+        "nome":"Unnerving Presence"
+    }],
+    "1316": [{
+        "url":"img/perks/ThrillingTremors.gif",
+        "nome": "Thrilling Tremors"
+    }],
+    "1317": [{
+        "url":"img/perks/ImAllEars.gif",
+        "nome": "Im All Ears"
+    }],
+    "1318": [{
+        "url":"img/perks/FurtiveChase.gif",
+        "nome": "Furtive Chase"
+    }],
+    
+
+
+    "2301": [{
+        "url":"img/perks/Adrenaline.gif",
+        "nome": "Adrenaline"
+    }],
+    "2302": [{
+        "url":"img/perks/QuickAndQuiet.gif",
+        "nome":"Quick And Quiet"    
+    }],
+    "2303":[{ 
+        "url":"img/perks/SprintBurst.gif",
+        "nome":"Sprint Burst"
+    }],
+    "2304":[{ 
+        "url":"img/perks/BalancedLanding.gif",
+        "nome":"Balanced Landing"
+    }],
+    "2305":[{ 
+        "url":"img/perks/UrbanEvasion.gif",
+        "nome":"Urban Evasion"
+    }],
+    "2306":[{ 
+        "url":"img/perks/Streetwise.gif",
+        "nome": "Streetwise"
+    }],
+    "2307":[{ 
+        "url":"img/perks/DecisiveStrike.gif",
+        "nome":"Decisive Strike"
+    }],
+    "2308":[{ 
+        "url":"img/perks/SoleSurvivor.gif",
+        "nome":"Sole Survivor"
+    }],
+    "2309":[{ 
+        "url":"img/perks/ObjectOfObsession.gif",
+        "nome":"Object Of Obsession"
+    }]
+}

@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/11/2019, 01:04:10
+    Author     : Jhonathan
+*/
+/*Css Arrow*/
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 10;
+}
+
+.jssora051:hover {
+    opacity: .8;
+}
+
+.jssora051.jssora051dn {
+    opacity: .5;
+}
+
+.jssora051.jssora051ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+/*Css Bullet*/
+.jssorb057 .i {
+    position:absolute;cursor:pointer;
+}
+
+.jssorb057 .i .b {
+    fill:none;
+    stroke: #ffffff;
+    stroke-width:2000;
+    stroke-miterlimit:10;
+    stroke-opacity:0.4;
+}
+.jssorb057 .i:hover .b {
+    stroke-opacity:.7;
+    stroke: #ff0000;
+}
+
+.jssorb057 .iav .b {
+    stroke-opacity: 1;
+}
+
+.jssorb057 .i.idn {
+    opacity:.3;
+}
